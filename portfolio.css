@@ -92,7 +92,7 @@ img:hover {
 /* Styling for footer element */
 footer {
     padding: 2%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
-    background-color: darkslateblue;
+    background-color: rgb(253, 161, 226);
 }
 /***** END OF GENERAL STYLING *****/
 
@@ -145,14 +145,14 @@ footer {
 
 /* Navbar hover effects */
 .Navbar a:hover {
-    background-color: turquoise; /* Defines the background color that will display when you hover over the link */
+    background-color: rgb(131, 252, 11); /* Defines the background color that will display when you hover over the link */
     color: black; /* This defines the font color that will display when navbar a elements are hovered over */
     font-weight: bold; /* This makes the text on the navbar bold when hovered over */
 }
 
 /* Navbar home button */
 .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
-    background-color: darkslateblue;
+    background-color: rgb(253, 161, 226);
 }
 /***** END OF NAVBAR STYLING *****/
 
@@ -202,7 +202,7 @@ footer {
     padding: 10px;
     padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
     height: 400px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color: hotpink; /* Sets the background color of the columns with class Column_1 */
+    background-color: rgb(38, 238, 218); /* Sets the background color of the columns with class Column_1 */
 }
 
 /* Screens 576px and smaller will display a scroll bar if the text overflows the column height */
@@ -218,7 +218,7 @@ footer {
     padding: 10px;
     padding-top: 1.9%;
     height: 400px;
-    background-color: #4d4d4d;
+    background-color: whitesmoke;
 }
 
 /* This class is applied to the columns in the final row, overriding the height and padding to provide more room for the contact form  while keeping the rest of the formatting from Column_1 or Column_2 */
@@ -240,7 +240,7 @@ footer {
 input[type=text] {
     width: 100%; /* Each input box covers the full width of the container */
     padding: 12px; /* Adds padding within the text box */
-    border: 1px solid turquoise; /* Setting a solid border and its color */
+    border: 1px solid rgb(131, 252, 11); /* Setting a solid border and its color */
     border-radius: 4px; /* Slightly rounds the corners of the text box border */
     box-sizing: border-box; /* This creates a box with a border around the contact form input boxes */
     margin-top: 6px; /* Adds a margin to the top of the text box */
@@ -251,7 +251,7 @@ input[type=text] {
 
 /* Hover effects for input boxes */
 input[type=text]:hover {
-    box-shadow: 0 0 5px turquoise inset; /* This creates a blue shadow in the text box when hovered over by the user */
+    box-shadow: 0 0 5px rgb(131, 252, 11) inset; /* This creates a blue shadow in the text box when hovered over by the user */
 }
 
 /* Submit button */
@@ -271,7 +271,7 @@ input[type=submit] {
 
 /* Hover effect for submit button */
 input[type=submit]:hover {
-    background-color: white; /* Turns the background of the submit button white when the user hovers over it */
+    background-color: rgb(131, 252, 11); /* Turns the background of the submit button white when the user hovers over it */
     color: black; /* Turns the font black when hovered over */
     transform: scale(1.5); /* Makes the button increase 1.5 times in size */
     transition: transform 1.5s; /* Makes the transform effect last 1.5 seconds */
